@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background-color: #23252C;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+}
+
+
+.content {
+    background-color: #1A1B21;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info--pic {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.contacts {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.contacts button {
+    width: 115px;
+    display: flex;
+    height: 35px;
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+
+}
+
+.contacts--email {
+    border-radius: 6px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    background: var(--white, #FFF);
+    
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    color: var(--gray-700, #374151);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+    
+}
+
+.contacts--linkedin {
+    border-radius: 6px;
+    background: #5093E2;    
+    border: 0;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+}
+
+.info--name {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", "serif" ;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info--job {
+    color: #F3BF99;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.info--website {
+    color: #F5F5F5;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 150%; /* 15.36px */
+}
+
+.about, .interests{
+    width: 250px;
+}
+
+.about {
+    margin-top: 34px;
+}
+
+.about--header, .interests--header {
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+}
+
+.about--description, .interests--description {
+    margin-top: 0;
+    color: #DCDCDC;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 150%; /* 15.36px */
+}
+
+
+.footer {
+    background: #161619;
+    width: 100%;
+    height: 64px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    margin-right: 16px;
+    cursor: pointer;
+
+}    
