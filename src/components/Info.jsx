@@ -11,15 +11,16 @@ function Info() {
             <h4 className="info--website">hishamelmorsi7.github.io</h4>
 
             <div className="contacts">
-                <button className="contacts--email">
+
+                <a className="contacts--email" href="mailto:hmelmorsi@gmail.com">
                     <img className="contacts--email--icon" src={mail_icon}/>                    
                     <p className="contacts--email--title">Email</p>
-                </button>
+                </a>
                 
-                <button className="contacts--linkedin">
+                <a className="contacts--linkedin" href="https://www.linkedin.com/in/hishamelmorsi/" >
                     <img className="contacts--linkedin--icon" src={linkedin_icon}/>
                     <p className="contacts--linkedin--title">Linkedin</p>
-                </button>
+                </a>
             </div>
         </div>
     )

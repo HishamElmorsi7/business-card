@@ -41,11 +41,12 @@ body {
     height: auto;
 }
 
-.contacts button {
+.contacts a {
     width: 115px;
     display: flex;
     height: 35px;
-    padding: 9px 13px 9px 11px;
+    /* padding: 9px 13px 9px 11px; */
+    text-decoration: none;
     justify-content: center;
     align-items: center;
     gap: 8px;
@@ -141,5 +142,9 @@ body {
 .footer img {
     margin-right: 16px;
     cursor: pointer;
-
 }    
+
+.contacts--email--title, .contacts--linkedin--title {
+    text-decoration: none;
+    color: inherit;
+}
